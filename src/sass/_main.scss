@@ -162,6 +162,7 @@
 
 .shimmer__item {
   @media screen and (max-width: 640px) {
+    margin: 0 auto;
     font-weight: 600;
     font-family: 'CenturyGothic', Arial, sans-serif;
     font-size: 16px;
