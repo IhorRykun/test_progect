@@ -1,0 +1,303 @@
+.header {
+  @media screen and (max-width: 1479px) {
+    background-image: url(../images/header/header_mobile.jpg);
+    padding-top: 35px;
+    padding-bottom: 64px;
+    padding-left: 19px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  background-image: url(../images/header/header_leptop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 62px 355px;
+  padding-bottom: 131px;
+}
+
+.logo {
+  margin-right: 63px;
+  fill: #fff;
+}
+.logo__link .logo {
+  padding: 5px;
+  &:focus,
+  &:hover {
+    fill: #fda700;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 100px;
+}
+
+.header__nav__item--margin {
+  @media screen and (max-width: 1479px) {
+    margin-left: 40px;
+  }
+  margin-left: 514px;
+}
+
+.header__nav__link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  width: 220px;
+  height: 50px;
+  border: 1px solid #fda700;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fda700;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    border: 2px solid white;
+    color: #fff;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.header__nav__text {
+  width: 213px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%; /* 26px/20 */
+  color: #ffffff;
+}
+
+.header__text__title {
+  @media screen and (max-width: 1479px) {
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 84px;
+  }
+  font-family: 'Orchidea Pro';
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+  margin-top: 84px;
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 725px;
+}
+.header__text__title--span {
+  color: rgba(253, 167, 0, 1);
+}
+
+.header__text__about {
+  @media screen and (max-width: 1479px) {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #ffffff;
+    max-width: 524px;
+    margin-left: 102px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  margin-top: 35px;
+  max-width: 623px;
+
+  color: #ffffff;
+}
+
+.block__logo__elive {
+  @media screen and(max-width:1479px) {
+    display: none;
+  }
+  display: flex;
+  align-items: center;
+  padding: 12px 13px;
+  width: 660px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  margin-top: 232px;
+}
+.block__logo__elive--text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #373737;
+  margin-left: 16px;
+  width: 379px;
+}
+
+.block__elive__button {
+  font-family: 'Orchidea Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  color: #fda700;
+
+  width: 150px;
+  height: 54px;
+
+  margin-left: 16px;
+  background: #0d2b6d;
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: white;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.container__text__title--flex {
+  @media screen and (min-width: 1480px) {
+    display: flex;
+  }
+}
+
+.video__container {
+  position: relative;
+  margin-top: 20px;
+  max-width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: rgba(13, 43, 109, 0.8);
+  margin-left: 279px;
+  @media screen and (min-width: 1480px) {
+    margin-top: 70px;
+  }
+}
+
+.video__svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #ffffff;
+  margin-left: 106px;
+  position: relative;
+}
+
+// !сеція форми
+
+.form {
+  max-width: 729px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 71px;
+  padding-top: 50px;
+  padding-bottom: 59px;
+  background-color: rgba(13, 43, 109, 0.8);
+  margin-top: 20px;
+  border-radius: 10px;
+  @media screen and (min-width: 1480px) {
+    margin-left: -334px;
+    margin-top: 176px;
+  }
+}
+
+.form__title {
+  font-family: 'Orchidea Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+
+  color: #fda700;
+}
+
+.form__input {
+  max-width: 100%;
+  height: 55px;
+  background-color: rgba(13, 43, 109, 1);
+  outline: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  color: #ffffff;
+  border: none;
+  width: 587px;
+  padding-left: 100px;
+  margin-top: 20px;
+  &:last-child {
+    margin-top: 0px;
+  }
+
+  @media screen and (min-width: 1480px) {
+    width: 400px;
+  }
+}
+
+.form__lable {
+  position: absolute;
+  top: 36px;
+  left: 27px;
+  color: #fff;
+}
+.container__form__lable {
+  position: relative;
+}
+.form__button {
+  width: 587px;
+  height: 59px;
+  background: #fda700;
+  border-radius: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  @media screen and (min-width: 1480px) {
+    width: 400px;
+  }
+  &:hover,
+  &:focus {
+    color: white;
+    outline: 2px solid white;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.selected__from {
+  height: 30px;
+  background-color: inherit;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.form__options {
+  background-color: rgba(13, 43, 109, 1);
+  color: #fff;
+}
