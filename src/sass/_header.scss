@@ -2,7 +2,13 @@
   @media screen and(min-width: 641px) {
     display: none;
   }
-  @media screen and(max-width: 640px) {
+
+  @media screen and(max-width: 480px) {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  @media screen and(min-width: 481px) {
     padding: 10px 20px;
     padding-bottom: 30px;
   }
