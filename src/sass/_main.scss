@@ -288,7 +288,9 @@
 .container {
   @media screen and (max-width: 640px) {
     padding: 10px 0;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 .animation__img {
@@ -297,7 +299,6 @@
     width: 398px;
     height: 298px;
     border-radius: 15px;
-    margin: 0 auto;
   }
 }
 
