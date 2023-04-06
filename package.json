@@ -1,18 +1,18 @@
 {
-  "name": "test_progect",
+  "name": "test_project",
   "version": "2.0.0",
   "description": "",
-  "homepage": " https://ihorrykun.github.io/test_progect/",
+  "homepage": " https://ihorrykun.github.io/test_project/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /test_progect/"
+    "build": "parcel build src/*.html --public-url /test_project/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IhorRykun/test_progect.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Ihor Rykun <ihorrykun@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/goitacademy/New_Projet/issues"
