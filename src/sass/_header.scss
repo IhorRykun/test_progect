@@ -83,8 +83,7 @@
     border-bottom: 1px solid black;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 20px;
+    justify-content: space-around;
     padding: 5px 0;
   }
   @media screen and(min-width: 481px) {
